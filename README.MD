@@ -2,7 +2,7 @@
 
 This is a migration for the page table entry based side-channel attack proposed in the paper "Telling Your Secrets Without Page Faults: Stealthy Page Table-Based Attacks on Enclaved Execution", which appears in 2017 but still works for now (2024). 
 
-You can find the attack code from the original authors of the paper [here](https://github.com/jovanbulck/sgx-pte). It was implemented within the [Graphene-SGX framework](), which I found to be out of maintenance and hard to adapt. Therefore, I rewrote the sgx-pte attack as a separate linux kernel module for extensibility and ease of use.
+You can find the attack code from the original authors of the paper [here](https://github.com/jovanbulck/sgx-pte). It was implemented within the [Graphene-SGX framework](https://github.com/gramineproject/graphene), which I found to be out of maintenance and hard to adapt. Therefore, I rewrote the sgx-pte attack as a separate linux kernel module for extensibility and ease of use.
 
 ## How it works?
 
