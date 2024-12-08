@@ -1,0 +1,8 @@
+*.o
+enclave
+enclave.signed
+private.pem
+public.pem
+helloworld_t.h
+helloworld_t.c
+helloworld_args.h
